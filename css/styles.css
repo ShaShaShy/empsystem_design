@@ -1,0 +1,136 @@
+*{
+  font-family: 'Geologica', sans-serif;
+}
+
+.page-bg {
+  background: url('../img/bg-1.jpg');
+  filter: brightness(35%);
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.navbar{
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar a{
+
+  color: #fff;
+}
+
+.navbar li a:hover{
+  color: grey;
+}
+
+.landing h1{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-top: 6%;
+  margin-bottom: 2%;
+  color: #fff;
+}
+
+.description{
+  height: 50vh;
+}
+
+
+.description p{
+  font-family: 'Geologica', sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+.applybtn button{
+  font-family: 'Geologica', sans-serif;
+  padding: 1%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 250px;
+  border-radius: 25px;
+  background-color: #DDE6ED;
+  transition: 400ms;
+}
+
+.applybtn button:hover{
+  color: #F8E8EE;
+  background-color: #025464;
+}
+
+.applybtn a{
+  text-decoration: none;
+}
+
+.about{
+  height: 100vh;
+}
+
+.about{
+  background-color: #fff;
+}
+
+.about h1{
+  padding:2%;
+  text-align: center;
+  color: #000;
+}
+
+.about p{
+  color: #000;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.about img{
+  margin-left: 12%;
+  margin-right: 2%;
+}
+
+.contact{
+  background-color: #fff;
+  height: auto;
+}
+
+.contact ul li a{
+  color: #000;
+  transition: 400ms;
+}
+
+.contact ul li a:hover{
+  color: #9BABB8;
+}
+
+.contact h2{
+  padding:2%;
+  text-align: center;
+  color: #000;
+}
+
+.contact p{
+  text-align: center;
+}
+
+.contact .sendbtn{
+  float: right;
+}
+
+.contactform{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.cen{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
